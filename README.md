@@ -6,6 +6,8 @@ This website has 3 screens :
 * Product Details Screen 
 * Cart Screen 
 
+( i'm planning on adding a signin and a register screens ) 
+
 This Project was made using :
 
 FRONTEND : React 
