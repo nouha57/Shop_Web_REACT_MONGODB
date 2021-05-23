@@ -1,0 +1,33 @@
+{
+  "name": "mern-shoppingcart-redux",
+  "version": "1.0.0",
+  "description": "e-commerce-madeBy-Nouha",
+  "main": "index.js",
+  "scripts": {
+    "serve:local": "nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seederScript"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+  
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.10"
+   
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
